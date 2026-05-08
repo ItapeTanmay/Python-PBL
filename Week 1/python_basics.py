@@ -143,10 +143,10 @@ Hello()
 
 # Functions with Parameters
 """
-def hello(name):
+def hello(name):  # this is parameter
     print(f"Hello {name}")
 
-hello("tanmay")
+hello("tanmay")   # this is argument
 """
 
 # functions with return values
@@ -157,6 +157,15 @@ def add(a,b):
 result = add(5,3)
 print(result)
 """
+
+# Default parameter arguments
+
+def my_function(name = "Friend"):
+    print(f"{name} is my friend")
+
+my_function("Tanmay")
+my_function("Emily")
+my_function()
 
 
 
@@ -229,11 +238,10 @@ print(student)
 """
 
 # Loop through Directory
+"""
 for key,value in student.items():
     print(key, value)
-
-#
-
+"""
 
 
 
