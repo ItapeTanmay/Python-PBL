@@ -291,12 +291,64 @@ not to all objects of the class
 """
 
 # Class Methods
+"""
+Methods are functions that belong to a class.
 
+They define the behaviour of objects created from class
+"""
+# Example
+"""
+class Person:
+    def __init__(self,name):
+        self.name = name
 
+    def greet(self):
+        print("Hello, my name is "+ self.name)
 
+p1 = Person("John")
+p1.greet()
+"""
 
+# Methods with parameters
+"""
+methods can accept parameters like regular functions
+"""
 
+# Example
+"""
+class Calculator:
+    def add(self,a,b):
+        return a+b
 
+    def multiply(self,a,b):
+        return a*b
+
+calc = Calculator()
+print(calc.add(5,3))
+print(calc.multiply(5,3))
+"""
+
+# Methods Accessing Properties
+"""
+Method can access and modify object properties using self
+"""
+
+# Example
+
+"""
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def get_info(self):
+        return f"{self.name} is {self.age} years old"
+
+p1 = Person("Tobias",28)
+print(p1.get_info())
+"""
+
+# Methods modifying Properties
 
 
 
