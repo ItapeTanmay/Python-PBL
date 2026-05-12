@@ -393,8 +393,40 @@ my_playlist.remove_song("Tension")
 my_playlist.show_songs()
 """
 
+# Delete Methods
+"""
+class Person:
+    def __init__(self,name):
+        self.name = name
 
+    def greet(self):
+        print("Hello!")
 
+p1 = Person("Linus")
+
+p1.greet()
+
+del Person.greet
+
+p1.greet()  # this will throw error
+"""
+
+# Python Inheritance
+
+"""
+Inheritance allows us to define a class that inherits properties and 
+methods from another class
+
+Parent class - class being inherited from (also known as base class)
+Child class - class that inherits (also known as derived class)
+"""
+
+# Create a Parent class
+
+class Parent:
+    def __init__(self, fname, lname):
+        self.fname = fname
+        self.lname = lname
 
 
 
