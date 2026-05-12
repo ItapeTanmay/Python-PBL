@@ -1,21 +1,10 @@
-# Topic 1 — OOP (Object-Oriented Programming)
+# Topic 1 : OOP (Object Oriented Programming)
 
-# Without OOP, code becomes messy:
-user1_name = "Sam"
-user1_age = 23
+# Class - A Class is like an object constructor, or a "blueprint" for creating objects.
 
-user2_name = "Ram"
-user2_age = 20
+class MyClass:
+    x = 5
 
-#Class = Blueprint
-#Object = Real thing created from blueprint
-
-# Basic class Example
-class Student:
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-
-    def introduction(self):
-        print(f"my name is {self.name} and I am {self.age} years old")
-
+# Object
+P1 = MyClass()
+print(P1.x)
