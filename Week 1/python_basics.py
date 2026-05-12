@@ -159,13 +159,25 @@ print(result)
 """
 
 # Default parameter arguments
-
+"""
 def my_function(name = "Friend"):
     print(f"{name} is my friend")
 
 my_function("Tanmay")
 my_function("Emily")
 my_function()
+"""
+
+# Keyword Arguments - order of argument does not matter
+"""
+def keyword_arg(animal,name):
+    print(f"I have a {animal}")
+    print(f"My {animal}'s name is {name}")
+
+keyword_arg(animal = "dog", name = "Buddy")
+"""
+
+
 
 
 
