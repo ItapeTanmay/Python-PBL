@@ -348,7 +348,53 @@ p1 = Person("Tobias",28)
 print(p1.get_info())
 """
 
-# Methods modifying Properties
+# Methods modifying Properties - methods can modify properties of object
+"""
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def celebrate_birthday(self):
+        self.age += 1
+        print(f"Happy Birthday! You are now {self.age}")
+
+p1 = Person("Linus",25)
+p1.celebrate_birthday()
+p1.celebrate_birthday()
+"""
+
+# Multiple Methods - class can have that work together
+"""
+class Playlist:
+    def __init__(self,name):
+        self.name = name
+        self.songs = []
+
+    def add_song(self, song):
+        self.songs.append(song)
+        print(f"Added: {song}")
+
+    def remove_song(self,song):
+        if song in self.songs:
+            self.songs.remove(song)
+            print(f"Removed: {song}")
+
+    def show_songs(self):
+        print(f"Playlist '{self.name}' : ")
+        for song in self.songs:
+            print(f"- {song}")
+
+my_playlist = Playlist("Favorites")
+my_playlist.add_song("Tension")
+my_playlist.add_song("Guilty")
+my_playlist.show_songs()
+my_playlist.remove_song("Tension")
+my_playlist.show_songs()
+"""
+
+
+
 
 
 
