@@ -55,10 +55,12 @@ def search_entry():
         data = json.load(file)
 
     found = False
+    count = 0
     for entry in data:
         if user_ip == entry["date"]:
-            print("record found")
-            break
+            count += 1
+            found = True
+    print(f"{count} entries found")
 
     if found == False:
         print("no entry found")
