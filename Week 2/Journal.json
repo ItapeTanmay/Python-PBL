@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "date": "130526",
+        "title": "Day1",
+        "data": "Today I started learning about Journal app and now I am feeling good as I built it"
+    },
+    {
+        "id": 2,
+        "date": "130526",
+        "title": "day 1 part 2",
+        "data": "Today in second half of my day I learnt about json file handling and it is such a cool thing"
+    }
+]
