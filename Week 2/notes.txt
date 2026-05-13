@@ -1,0 +1,6 @@
+I am learning Python
+I know OOP
+Now learning File I/O
+Learning File I/O
+Learning File I/O
+Learning File I/O

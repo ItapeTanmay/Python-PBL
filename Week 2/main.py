@@ -422,11 +422,44 @@ Child class - class that inherits (also known as derived class)
 """
 
 # Create a Parent class
-
+"""
 class Parent:
     def __init__(self, fname, lname):
         self.fname = fname
         self.lname = lname
+
+    def printname(self):
+        print(self.fname,self.lname)
+"""
+
+# child class
+"""
+class Student(Parent):
+    pass
+
+y = Student("Tanmay","Itape")
+y.printname()
+"""
+
+# Types - Single, Multiple, MultiLevel, Hybrid,
+
+# Single inheritance
+"""
+class Animal:
+    def eat(self):
+        print("Eating")
+
+
+class Dog(Animal):
+    def bark(self):
+        print("Barking")
+
+
+d1 = Dog()
+
+d1.eat()
+d1.bark()
+"""
 
 
 
