@@ -25,10 +25,11 @@ with file_path.open("a") as file:
 """
 
 # read file
-
+"""
 with file_path.open("r") as file:
     for line in file:
         print(line.strip())  # we use strip to remove extra gaps we had due to \n.
+"""
 
 
 
